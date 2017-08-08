@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width:600px ;
+	height: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.square-level3{
+	width:160px ;
+	height: 160px;
+	margin-left: 40px;
+	margin-top: 40px;
+	float: left;
+}
+.square-level4{
+	width:130px ;
+	height: 130px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.square-level5{
+	width:100px;
+	height: 100px;
+	margin-left: 15px;
+	margin-top: 10px;
+	float: right;
+}
+.empty{
+	width: 130px;
+	height: 130px;
+}
+.empty-level3{
+	width: 160px;
+	height: 160px;
+}
+.empty-level4{
+	width: 130px;
+	height: 130px;
+}
+.empty-level5{
+	width: 100px;
+	height: 100px;
+}
+.front{
+	background-color: gainsboro;
+}
+.normal{
+	background-color: cornflowerblue;
+}
+.special{
+	background-color: yellowgreen;
+}
+
+
+.lose,.win{
+	margin-top: 10%;
+	font-size: 90px;
+	text-align: center;
+	font-family: "微软雅黑";
+	line-height: 10rem;
+}
+.prepare{
+	text-align: center;
+}
+.prepare h1{
+	font-size: 8em;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	width: 34rem;
+	margin: 2% auto;
+}
+.prepare input{
+	width: 20rem;
+	height: 10rem;
+	margin-top: 3%;
+	font-family: "微软雅黑";
+	font-size: 3.5em;
+}
+.prepare .degree{
+	margin: 0 auto;
+	width: 30rem;
+	text-align: center;
+}
+.prepare .degree h2{
+	font-size: 4em;
+	font-weight: normal;
+	font-family: "微软雅黑";
+	margin-top: 0%;
+}
+.prepare .degree ul{
+	width: 28rem;
+	list-style-type: none;
+	margin-left: 5rem;
+}
+.prepare .degree ul li{
+	width: 15rem;
+	margin-bottom: 2rem;
+	line-height: 6rem;
+	font-size: 3em;
+}
+.nav-checked{
+	background: red;
+}
+.nav-unchecked{
+	background: goldenrod;
+}
+.retry-btn{
+	width: 15rem;
+	margin: 0 auto;
+}
+.retry-btn button{
+	width:15rem ;
+	height: 9rem;
+	font-size: 3em;
+	font-family: "微软雅黑";
+	margin-top: 2rem;
+}
