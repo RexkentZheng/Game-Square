@@ -114,6 +114,6 @@
 		$('.win').hide();
 	})
 	$('.index-btn').click(function () {
-		window.location.reload();
+		window.location.href="index.html";
 	})
 		
