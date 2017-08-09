@@ -74,6 +74,7 @@
 //失败事件以及判定
 	$(document).ready(function () {
 		$('.wrong').click(function () {
+			$('.square').addClass('disabled');
 			setTimeout(function () {
 				$('.right').parent('.unchecked').trigger('click');				
 			},1000);
@@ -91,6 +92,7 @@
 //			console.log(difficulty*2-3);
 //			console.log($('.right').parent('.checked').length);
 			if ($('.right').parent('.checked').length > difficulty*2-3 ) {
+				$('.square').addClass('disabled');
 				setTimeout(function () {
 					$('#container').fadeOut();
 					$('.win').fadeIn();
