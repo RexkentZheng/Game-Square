@@ -130,3 +130,5 @@ body{
 	font-family: "微软雅黑";
 	margin-top: 2rem;
 }
+
+.disabled { pointer-events: none; }  
